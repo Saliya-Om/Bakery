@@ -1,0 +1,146 @@
+.menu-section-one {
+    background-image: url('./images/menu-main.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.menu-section-one .section-one-bg {
+    position: relative;
+    background-color: rgba(5, 5, 0, 0.5);
+    height: 60vh;
+}
+
+.sectiocn-one-container .menu-title{
+    text-align: center;
+    color: #eb6c35; 
+}
+
+.menu-section-one .sectiocn-one-container {
+    color: #f5d1c2;
+    text-align: center;
+    margin: 0px 5rem;
+}
+
+@media (max-width: 768px) {
+    .menu-section-one  .sectiocn-one-container{
+        margin: 0rem 4rem;
+    }
+}
+@media (max-width: 563px) {
+    .menu-section-one  .sectiocn-one-container{
+        margin: 0rem 2rem;
+        text-align: justify;
+    }
+}
+@media (max-width: 425px) {
+    .menu-section-one  .sectiocn-one-container{
+        margin: 0rem 2rem;
+        text-align: justify;
+    }
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0 !important;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px !important;
+    height: 100px;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: start;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+
+.main-card-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-primary {
+   background-color: #F7D3C4;
+   color: black;
+   border: 1px solid transparent;
+}
+
+.btn-primary:hover {
+   background-color: transparent;
+   color: #f8c1a9;
+   border: 1px solid #F7D3C4;
+}
+
+ul.item-list li,a {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    text-decoration: none;
+    line-height: 2rem;
+    padding-left: 5px;
+    transition: transform 0.3s ease-in-out;     
+}
+
+ul.item-list li a:hover,
+ul.item-list li a:active {
+    transform: scale(1.05);
+    background-color: rgb(249, 197, 151);
+    border-radius: 10px;
+}
+
+
+.main-card-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+    .row .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .row .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .menu-option {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .Menu-pera {
+        padding: 0 30px;
+        text-align: center;
+    }
+}

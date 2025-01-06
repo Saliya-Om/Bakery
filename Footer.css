@@ -1,0 +1,58 @@
+#bakery-footer{
+    background-color: #4d2515;
+}
+
+#bakery-footer #row h1,h5{
+    color: #F7D3C4;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.footer-name h1{
+    font-size: 8rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: #F7D3C4;
+    font-family: serif;
+}
+
+#bakery-footer a{
+    text-decoration: none;
+}
+
+.footer-icon i{
+    color: #F7D3C4;
+}
+
+@media (max-width:767px){
+    #our-store{
+        margin-top: 1rem;
+    }
+
+    .container{
+        text-align: justify;    
+        padding: 15px;
+    }
+
+    .container p,a{
+        font-size: 0.8rem;
+    }
+
+    .container h5{
+        font-size: 1.3rem;
+    }
+
+    .footer-content{
+        flex-direction: column;  
+    }
+
+    .footer-name h1{
+        font-size: 3.5rem;
+    }
+}
